@@ -1,0 +1,6 @@
+{
+  "name": "Info Gempa & EEW",
+  "description": "Aplikasi peringatan dini gempa bumi real-time dengan melacak jarak episenter ke lokasi Anda dan suara alarm NHK Jepang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

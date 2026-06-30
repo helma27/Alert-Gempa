@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer seismic wave rings -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,18 A 36,36 0 1,1 53.9,18"
+        android:alpha="0.3" />
+        
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,28 A 26,26 0 1,1 53.9,28"
+        android:alpha="0.6" />
+
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,38 A 16,16 0 1,1 53.9,38"
+        android:alpha="0.9" />
+
+    <!-- Triangle warning icon in the center (scaled down to fit 66dp center safe zone) -->
+    <!-- Base center at (54, 52) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,40 L69,66 L39,66 Z" />
+        
+    <!-- Exclamation mark inside the triangle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M53,49 L55,49 L54.6,58 L53.4,58 Z" />
+        
+    <path
+        android:fillColor="#000000"
+        android:pathData="M53,61 A 1,1 0 1,1 55,61 A 1,1 0 1,1 53,61" />
+        
+</vector>
